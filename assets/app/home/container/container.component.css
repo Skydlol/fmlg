@@ -1,0 +1,23 @@
+#main_container {
+    overflow-y: auto;
+}
+
+.ol-p-49 {
+    padding-top: 49.25px;
+}
+
+.ol-p-44 {
+    padding-top: 44px;
+}
+
+.in_sidebar_l {
+    width: 256px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.in_container_l {
+    width: calc(100% - 256px);
+    height: 100%;
+    overflow-y: auto;
+}

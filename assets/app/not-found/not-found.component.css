@@ -1,0 +1,40 @@
+html {
+    overflow-x: hidden;
+}
+
+#content {
+    margin: 0; /* pour éviter les marges */
+    padding: 0;
+    background-image: url(/images/xumHAbS.gif);
+    background-size: cover;
+    color: #e7e7e7;
+    font-family: "Arial", helvetica, arial, sans-serif;
+    width: 100%;
+    height:100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+.error-template {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.error-actions {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.error-actions .btn {
+    margin-right:10px;
+    color: rgba(255, 255, 255, 0.938);
+    background-color: rgba(113, 40, 58, 0.8);
+    border-color: black;
+}
+
+.error-actions .btn:hover {
+    margin-right:10px;
+    color: rgba(255, 255, 255, 0.938);
+    background-color: rgba(113, 40, 58, 1);
+    border-color: black;
+}

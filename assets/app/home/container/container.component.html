@@ -1,0 +1,10 @@
+<div class="container-fluid h-100" id="main_container" [ngClass]="{'ol-p-49': innerWidth < 768, 'ol-p-44': innerWidth >= 768}">
+    <div class="row h-100">
+        <div id="in_sidebar" [ngClass]="{'col-md-3 p-0': innerWidth < 768, 'in_sidebar_l  navbar-dark bg-dark': innerWidth >= 768}">
+            <app-sidebar></app-sidebar>
+        </div>
+        <div id="in_container" [ngClass]="{'col-md-9': innerWidth < 768, 'in_container_l': innerWidth >= 768}" class="px-5">
+            <app-content></app-content>
+        </div>
+    </div>
+</div>
